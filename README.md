@@ -1,73 +1,57 @@
-# Importing Data Using Pandas - Lab
+ Best Performing Film Industry Analysis for Business Investment
+ 
+This project analyzes various film industry datasets to uncover trends that can guide a company's strategic entry into the entertainment industry. As major corporations turn to original content creation, our company aims to establish a successful movie studio. However, due to limited experience in film production, the business needs insight-driven guidance. This analysis will highlight the most profitable, well-received, and promising areas in film today.
 
-## Introduction
+By integrating multiple datasets we aim to explore current industry patterns to provide actionable recommendations on the types of films the new studio should prioritize.
 
-In this lab, you'll get some practice with loading files with summary or metadata, and if you find that easy, the optional "level up" content covers loading data from a corrupted csv file.
+Business Understanding
+With streaming platforms, global cinema, and digital distribution evolving, film production has become both an art and a high-stakes business. Identifying what makes a movie successful requires analyzing box office numbers, critic reviews, audience preferences, and market performance.
 
-## Objectives
-You will be able to:
+This analysis will help answer the following key business questions:
 
-- Use pandas to import data from a CSV and and an Excel spreadsheet  
+Which genres receive the best critical reception?
+What genres offer the highest return on investment?
+Are there specific directors whose films consistently perform well internationally?
+What languages are associated with popular films?
+These insights will equip the new studio team with reliable data to greenlight projects that align with market demand and maximize profitability.
 
-##  Loading Files with Summary or Meta Data
+ Datasets
+This project draws on a robust combination of industry datasets:
 
-Load either of the files `'Zipcode_Demos.csv'` or `'Zipcode_Demos.xlsx'`. What's going on with this dataset? Clean it up into a useable format and describe the nuances of how the data is currently formatted.
-
-All data files are stored in a folder titled `'Data'`.
-
-
-```python
-# Import pandas using the standard alias
-
-```
-
-
-```python
-# Import the file and print the first 5 rows
-df = None
-
-```
+Box Office Mojo: Gross earnings and box office performance.
+Rotten Tomatoes: Critic and audience scores, along with review sentiment.
+IMDb Links: Unique identifiers to cross-reference movies across datasets.
+TheMovieDB: Metadata on movies including genres, languages, production countries, popularity, and more.
+The Numbers: Financial details such as production budgets and revenues to help calculate ROI.
+Together, these datasets offer a comprehensive view of the global film landscape.
 
 
-```python
-# Print the last 5 rows of df
+1️ Data Exploration
+This phase focuses on understanding the dataset, identifying important columns, and investigating potential relationships that could be explored.
+We assess the structure of the data, determine which columns are crucial for our analysis, and evaluate whether the data is clean or requires attention.
+Each member investigates different subsets of the data to understand the distribution, data types, and to identify any obvious issues (e.g., missing values, inconsistencies).
+The goal is to identify any initial patterns, issues, or opportunities for further exploration and to form hypotheses that guide the next steps in the analysis.
+2️⃣ Data Preparation & Cleaning
+After initial exploration, we focus on preparing the data for further analysis by accurately merging various datasets, ensuring that relationships are explored correctly.
+We handle any missing values through imputations, deal with outliers, and perform other cleaning tasks (e.g., removing duplicates, handling inconsistencies).
+The data is structured in a way that allows us to explore relationships in greater depth and ensures that the datasets are accurate, consistent, and ready for analysis.
+This stage ensures that the data is in a clean, usable state for modeling and deeper insights.
+3️⃣ Data Analysis
+This stage is divided into two complementary tracks, both of which are handled collaboratively and iteratively:
 
-```
+Data Visualization
+Group members explore visual trends related to genres, revenue ratings, profit and loss gross and other variables.
+Visualization types include bar plots, box plots, histograms, and scatter plots to surface patterns.
+Visual insights are cross-validated and shared among the team to refine hypotheses and interpretations.
 
+Business Recommendations
+Synthesizing results into clear, actionable insights for the new movie studio.
+All team members collaborate to align recommendations with business goals.
+Focused on helping decision-makers prioritize genres, directors, languages, and film types based on profitability, audience reception, and global appeal.
 
-```python
-# What is going on with this data set? Anything unusual?
-```
+Limitations of Our Analysis
+Discusses the limitations of the analysis, such as potential biases in the dataset, missing information, and sampling constraints.
+Acknowledges areas where further exploration, data collection, or improved methods could enhance the results.
 
-
-```python
-# Clean up the dataset
-
-```
-
-## Level Up (Optional) - Loading Corrupt CSV files
-
-Occasionally, you encounter some really ill-formatted data. One example of this can be data that has strings containing commas in a csv file. Under the standard protocol, when this occurs, one is supposed to use quotes to differentiate between the commas denoting fields and the commas within those fields themselves. For example, we could have a table like this:  
-
-`ReviewerID,Rating,N_reviews,Review,VenueID
-123456,4,137,This restaurant was pretty good, we had a great time.,98765`
-
-Which should be saved like this if it were a csv (to avoid confusion with the commas in the Review text):
-`"ReviewerID","Rating","N_reviews","Review","VenueID"
-"123456","4","137","This restaurant was pretty good, we had a great time.","98765"`
-
-Attempt to import the corrupt file, or at least a small preview of it. It is appropriately titled `'Yelp_Reviews_Corrupt.csv'`. Investigate some of the intricacies of skipping rows to then pass over this error and comment on what you think is going on.
-
-
-```python
-# Hint: Here's a useful programming pattern to use
-try:
-    # Do something
-except Exception as e:
-    # Handle your exception e
-```
-
-## Summary
-
-Congratulations, you now practiced your Pandas-importing skills.
-# Movie-film-project
+Conclusion
+From our analysis shows that G-rated and family-friendly films offer the highest ROI, certain genres like Drama and Animation consistently receive strong ratings, and a few key directors drive higher foreign revenue. English remains the dominant language for popular films, but non-English content also shows potential. These insights can help guide data-driven decisions on genre focus, content rating, and director partnerships for a successful market entry investment.
