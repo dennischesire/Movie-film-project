@@ -37,8 +37,8 @@ The goal is to identify any initial patterns, issues, or opportunities for furth
 ## Data Preparation & Cleaning
 
 
-After initial exploration, we focus on preparing the data for further analysis by accurately merging various datasets, ensuring that relationships are explored correctly.
-We handle any missing values through imputations, deal with outliers, and perform other cleaning tasks (e.g., removing duplicates, handling inconsistencies).
+After initial exploration, focused on preparing the data for further analysis by accurately merging various datasets, ensuring that relationships are explored correctly.
+We handle any missing values through imputations and perform other cleaning tasks (e.g., removing duplicates, handling inconsistencies).
 The data is structured in a way that allows us to explore relationships in greater depth and ensures that the datasets are accurate, consistent, and ready for analysis.
 This stage ensures that the data is in a clean, usable state for modeling and deeper insights.
 
@@ -48,20 +48,20 @@ This stage is divided into two complementary tracks, both of which are handled c
 
 ## Data Visualization
 
-Group members explore visual trends related to genres, revenue ratings, profit and loss gross and other variables.
+I managed to explore visual trends related to genres, revenue ratings, profit and loss gross and other variables.
 Visualization types include bar plots, box plots, histograms, and scatter plots to surface patterns.
 Visual insights are cross-validated and shared among the team to refine hypotheses and interpretations.
 
 ## Business Recommendations
 Synthesizing results into clear, actionable insights for the new movie studio.
-All team members collaborate to align recommendations with business goals.
+Collaborate to align recommendations with business goals.
 Focused on helping decision-makers prioritize genres, directors, languages, and film types based on profitability, audience reception, and global appeal.
 
 ## Limitations of Our Analysis
-Discusses the limitations of the analysis, such as potential biases in the dataset, missing information, and sampling constraints.
+Discussed the Shortcomings of the analysis, such as potential biases in the dataset, missing information, and sampling constraints.
 Acknowledges areas where further exploration, data collection, or improved methods could enhance the results.
 
 ## Conclusion
-From our analysis shows that G-rated and family-friendly films offer the highest ROI, certain genres like Drama and Animation consistently receive strong ratings, and a few key directors drive higher foreign revenue. English remains the dominant language for popular films, but non-English content also shows potential. These insights can help guide data-driven decisions on genre focus, content rating, and director partnerships for a successful market entry investment.
+From My analysis, it shows that G-rated and family-friendly films offer the highest ROI, certain genres like Drama and Animation consistently receive strong ratings, and a few key directors drive higher foreign revenue. English remains the dominant language for popular films, but non-English content also shows potential. These insights can help guide data-driven decisions on genre focus, content rating, and director partnerships for a successful market entry investment.
 ## Links For Tableau
 https://public.tableau.com/views/MovieFilmsInsights/MovieFilmsinsights?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
